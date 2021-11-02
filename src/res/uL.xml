@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingTop="24dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1" android:layoutDirection="0" android:paddingStart="24dp" android:paddingEnd="24dp">
+	<com.google.android.material.textfield.TextInputLayout android:id="false" android:layout_width="0dp" android:layout_height="-2" app:hintTextColor="{2:16842806}" app:layout_constraintEnd_toStartOf="false" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+		<com.google.android.material.textfield.TextInputEditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Minutes" android:singleLine="true" android:maxLength="3" android:inputType="0x2" />
+	</com.google.android.material.textfield.TextInputLayout>
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text=":" app:layout_constraintBaseline_toBaselineOf="false" app:layout_constraintEnd_toStartOf="false" app:layout_constraintStart_toEndOf="false" />
+	<com.google.android.material.textfield.TextInputLayout android:id="false" android:layout_width="0dp" android:layout_height="-2" app:hintTextColor="{2:16842806}" app:layout_constraintEnd_toStartOf="false" app:layout_constraintStart_toEndOf="false" app:layout_constraintTop_toTopOf="0">
+		<com.google.android.material.textfield.TextInputEditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Seconds" android:singleLine="true" android:maxLength="2" android:inputType="0x2" />
+	</com.google.android.material.textfield.TextInputLayout>
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="." app:layout_constraintBaseline_toBaselineOf="false" app:layout_constraintEnd_toStartOf="false" app:layout_constraintStart_toEndOf="false" />
+	<com.google.android.material.textfield.TextInputLayout android:id="false" android:layout_width="0dp" android:layout_height="-2" app:hintTextColor="{2:16842806}" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="false" app:layout_constraintTop_toTopOf="0">
+		<com.google.android.material.textfield.TextInputEditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Millis" android:singleLine="true" android:maxLength="3" android:inputType="0x2" />
+	</com.google.android.material.textfield.TextInputLayout>
+	<TextView android:textColor="{2:2130968785}" android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:text="Enter a valid time, up to %s" android:layout_marginStart="4dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="false" style="resourceId:0x7f12026b" />
+	<com.google.android.material.textfield.TextInputLayout android:id="false" android:layout_width="0dp" android:layout_height="-2" app:hintTextColor="{2:16842806}" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="false">
+		<com.google.android.material.textfield.TextInputEditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Marker name" android:singleLine="true" android:maxLength="70" android:inputType="0x4001" />
+	</com.google.android.material.textfield.TextInputLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

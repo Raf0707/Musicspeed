@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<ListPreference app:defaultValue="2400" app:dialogTitle="Pitch range" app:entries="resourceId:0x7f03000a" app:entryValues="resourceId:0x7f03001a" app:key="preferences_pitch_range" app:title="Pitch range" />
+	<ListPreference app:defaultValue="0.25" app:dialogTitle="Minimum speed" app:entries="resourceId:0x7f030007" app:entryValues="resourceId:0x7f030018" app:key="preferences_minimum_speed" app:title="Minimum speed" />
+	<ListPreference app:defaultValue="1.5" app:dialogTitle="Maximum speed" app:entries="resourceId:0x7f030006" app:entryValues="resourceId:0x7f030017" app:key="preferences_maximum_speed" app:title="Maximum speed" />
+	<CheckBoxPreference app:defaultValue="false" app:key="preferences_snap_pitch" app:summary="Whole semi-tone values" app:title="Snap pitch slider" />
+	<CheckBoxPreference app:defaultValue="false" app:key="preferences_snap_tempo" app:summary="Multiples of 5%" app:title="Snap speed slider" />
+	<CheckBoxPreference app:defaultValue="false" app:key="uiLink" app:title="Display pitch/tempo join button" />
+	<ListPreference app:defaultValue="0" app:dialogTitle="On track change" app:entries="resourceId:0x7f030008" app:entryValues="resourceId:0x7f030019" app:key="preferences_on_track_change" app:title="On track change" />
+</PreferenceScreen>

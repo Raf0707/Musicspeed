@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="0" android:visibility="0" android:layout_width="-2" android:layout_height="-2">
+	<ImageButton android:id="false" style="resourceId:0x7f12019f" />
+	<ImageButton android:id="false" style="resourceId:0x7f1201a0" />
+	<ImageButton android:id="false" style="resourceId:0x7f12019e" />
+	<ImageButton android:id="false" style="resourceId:0x7f12019c" />
+	<ImageButton android:id="false" style="resourceId:0x7f12019d" />
+</LinearLayout>

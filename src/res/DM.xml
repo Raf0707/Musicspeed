@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="{2:2130968581}">
+	<com.google.android.material.appbar.AppBarLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2" app:layout_scrollFlags="0x5">
+			<androidx.appcompat.widget.Toolbar android:id="false" android:elevation="0dp" app:popupTheme="{2:2130969439}" app:titleTextAppearance="resourceId:0x7f1202fd" style="resourceId:0x7f1202fe" />
+		</FrameLayout>
+		<com.smp.musicspeed.folders.BreadCrumbLayout android:id="false" android:paddingLeft="60dp" android:paddingRight="8dp" android:layout_width="-1" android:layout_height="48dp" android:paddingStart="60dp" android:paddingEnd="8dp" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+		<com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView android:id="false" android:background="{2:2130969172}" android:padding="8dp" android:scrollbars="0x0" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" app:fastScrollPopupBgColor="{2:2130968779}" app:fastScrollPopupTextColor="{2:2130968870}" app:fastScrollThumbColor="{2:2130968779}" />
+		<TextView android:textSize="20sp" android:textColor="{2:16842808}" android:layout_gravity="0x11" android:id="resourceId:0x1020004" android:layout_width="-2" android:layout_height="-2" android:text="Empty" />
+		<androidx.core.widget.ContentLoadingProgressBar android:layout_gravity="0x30" android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="-6dp" android:layout_marginBottom="-6dp" android:indeterminateOnly="true" style="{2:16842872}" />
+	</FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

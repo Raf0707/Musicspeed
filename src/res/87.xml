@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<com.google.android.material.button.MaterialButton android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="No, thank you" style="resourceId:0x7f12036e" />
+		</LinearLayout>
+		<com.google.android.material.button.MaterialButton android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Yes, I agree" style="resourceId:0x7f120374" />
+	</LinearLayout>
+	<com.google.android.material.button.MaterialButton android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="No ads at all, please" style="resourceId:0x7f12036e" />
+</merge>

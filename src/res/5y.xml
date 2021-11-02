@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x11" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="300dp" android:layout_height="-2" android:layoutDirection="0" android:paddingStart="24dp" android:paddingEnd="24dp">
+	<ScrollView android:layout_width="-2" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<View android:layout_width="-1" android:layout_height="16dp" />
+			<LinearLayout android:layout_width="-1" android:layout_height="-2">
+				<ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="res/r3.png" android:scaleType="7" />
+				<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="This app has been Superpowered." android:textDirection="3" />
+			</LinearLayout>
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="http://www.superpowered.com" android:textDirection="3" />
+			<View android:layout_width="-1" android:layout_height="16dp" />
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="This app uses LAME for MP3 audio encoding." android:textDirection="3" />
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="http://lame.sourceforge.net" android:textDirection="3" />
+			<View android:layout_width="-1" android:layout_height="16dp" />
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="This app uses FFmpeg for various audio functions." android:textDirection="3" />
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="https://ffmpeg.org/" android:textDirection="3" />
+			<View android:layout_width="-1" android:layout_height="16dp" />
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="This app uses Jaudiotagger for editing tags." android:textDirection="3" />
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="https://github.com/hexise/jaudiotagger-android/" android:textDirection="3" />
+			<Button android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" android:text="More" />
+		</LinearLayout>
+	</ScrollView>
+</FrameLayout>

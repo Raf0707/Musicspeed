@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<com.smp.musicspeed.settings.ColorPreferenceCategory app:title="Editor controls">
+		<Preference app:fragment="com.smp.musicspeed.settings.PitchAndTempoSettingsFragment" app:icon="res/nf.xml" app:key="pitch_tempo" app:summary="Ranges, snap, join button, persistence" app:title="Pitch and tempo" />
+		<com.smp.masterswitchpreference.MasterSwitchPreference app:defaultValue="false" app:icon="res/zT.xml" app:key="customUiEnabled" app:ms_includedPrefScreen="xml/preferences_custom_ui" app:ms_switchOffBackgroundColor="{2:2130969202}" app:ms_switchOffExplanationText="Customize which components are shown in the editor when &apos;Custom&apos; is selected from the editor components menu." app:ms_switchOffText="Not using" app:ms_switchOnBackgroundColor="1565c0" app:ms_switchOnText="Using" app:ms_switchTextColor="deffffff" app:ms_switchThumbColor="fafafa" app:ms_switchTrackColor="4dfafafa" app:summary="Personalize editor layout" app:title="Custom components" />
+		<CheckBoxPreference app:defaultValue="false" app:key="uiPlusMinus" app:summary="Fine control of sliders" app:title="Plus/minus buttons" />
+		<ListPreference app:defaultValue="3" app:dialogTitle="Seek buttons" app:entries="resourceId:0x7f03000c" app:entryValues="resourceId:0x7f03001b" app:key="preferences_seek" app:title="Seek buttons" />
+		<ListPreference app:defaultValue="0" app:dialogTitle="Waveform view" app:entries="resourceId:0x7f030013" app:entryValues="resourceId:0x7f030012" app:key="uiWaveform" app:title="Waveform view" />
+	</com.smp.musicspeed.settings.ColorPreferenceCategory>
+	<CheckBoxPreference app:allowDividerAbove="true" app:defaultValue="false" app:key="preferences_screen_on" app:summary="Overrides screen timeout" app:title="Keep screen on" />
+	<CheckBoxPreference app:defaultValue="false" app:key="preferences_ignore_audio_focus" app:summary="No playback interruptions" app:title="Play audio over other apps" />
+	<com.smp.musicspeed.settings.ColorPreferenceCategory app:title="Colors">
+		<ListPreference app:defaultValue="Light" app:dialogTitle="Theme" app:entries="resourceId:0x7f03000e" app:entryValues="resourceId:0x7f030011" app:key="preferences_theme" app:title="Theme" />
+		<com.jaredrummler.android.colorpicker.ColorPreferenceCompat app:cpv_allowCustom="false" app:cpv_colorPresets="resourceId:0x7f030001" app:cpv_colorShape="0" app:cpv_dialogTitle="Accent color" app:cpv_previewSize="0" app:cpv_showColorShades="false" app:defaultValue="ffc17" app:key="preferences_accent_color" app:title="Accent color for light theme" />
+		<com.jaredrummler.android.colorpicker.ColorPreferenceCompat app:cpv_allowCustom="false" app:cpv_colorPresets="resourceId:0x7f030001" app:cpv_colorShape="0" app:cpv_dialogTitle="Accent color" app:cpv_previewSize="0" app:cpv_showColorShades="false" app:defaultValue="34c6ff" app:key="preferences_accent_color_dark" app:title="Accent color for dark theme" />
+	</com.smp.musicspeed.settings.ColorPreferenceCategory>
+	<com.smp.musicspeed.settings.ColorPreferenceCategory app:title="Save edited track">
+		<ListPreference app:defaultValue="mp3" app:dialogTitle="File format" app:entries="resourceId:0x7f030005" app:entryValues="resourceId:0x7f030005" app:key="preferences_file_type" app:title="File format" />
+		<ListPreference app:defaultValue="192" app:dialogTitle="Encoding kbps" app:entries="resourceId:0x7f030004" app:entryValues="resourceId:0x7f030016" app:key="preferences_file_kbps" app:title="Encoding kbps" />
+		<CheckBoxPreference app:defaultValue="false" app:key="preferences_maximum_file_quality" app:summary="Significantly slower" app:title="Maximum encoding quality" />
+		<Preference app:key="preferences_store_path" app:title="Save directory" />
+	</com.smp.musicspeed.settings.ColorPreferenceCategory>
+	<com.smp.musicspeed.settings.ColorPreferenceCategory app:title="Beat detection and syncing">
+		<CheckBoxPreference app:defaultValue="false" app:key="beatSyncingLoopMarkers" app:summary="Snap to nearest beat" app:title="Loop and marker points" />
+		<com.smp.masterswitchpreference.MasterSwitchPreference app:defaultValue="false" app:key="beatSyncingEffects" app:ms_explanationIcon="drawable/ic_baseline_sync_24" app:ms_hideExplanation="false" app:ms_showStatusInSummary="true" app:ms_switchOffBackgroundColor="{2:2130969202}" app:ms_switchOffExplanationText="When turned on, BPM based effects such as Echo and Flanger automatically adjust their time setting to match the BPM of the currently playing track.
+
+Time setting values change when the track changes or the reset button of the effect is pressed." app:ms_switchOffText="Off" app:ms_switchOnBackgroundColor="1565c0" app:ms_switchOnExplanationText="When turned on, BPM based effects such as Echo and Flanger automatically adjust their time setting to match the BPM of the currently playing track.
+
+Time setting values change when the track changes or the reset button of the effect is pressed." app:ms_switchOnText="On" app:ms_switchTextColor="deffffff" app:ms_switchThumbColor="fafafa" app:ms_switchTrackColor="4dfafafa" app:title="BPM based effects" />
+	</com.smp.musicspeed.settings.ColorPreferenceCategory>
+	<com.smp.musicspeed.settings.ColorPreferenceCategory app:title="Audio recorder">
+		<ListPreference app:defaultValue="192" app:dialogTitle="Encoding kbps" app:entries="resourceId:0x7f030004" app:entryValues="resourceId:0x7f030016" app:key="preferences_recorder_kbps" app:title="Encoding kbps" />
+	</com.smp.musicspeed.settings.ColorPreferenceCategory>
+	<Preference app:allowDividerAbove="true" app:fragment="com.smp.musicspeed.settings.AdvancedSettingsFragment" app:icon="res/Rg.xml" app:key="advanced" app:summary="Time stretch quality, buffer size, latency" app:title="Advanced" />
+	<Preference app:key="consent" app:title="Withdraw data protection consent" />
+</PreferenceScreen>

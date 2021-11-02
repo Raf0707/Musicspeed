@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:id="false" android:background="{2:2130969551}" android:layout_width="-1" android:layout_height="-1" android:layout_below="false" />
+	<View android:background="res/4r.xml" android:layout_width="-1" android:layout_height="4dp" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

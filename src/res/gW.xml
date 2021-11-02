@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<CheckBoxPreference app:defaultValue="true" app:key="customUiPitchAndTempo" app:title="Pitch and tempo" />
+	<CheckBoxPreference android:dependency="customUiPitchAndTempo" app:defaultValue="false" app:key="customUiKey" app:title="Musical key" />
+	<CheckBoxPreference android:dependency="customUiPitchAndTempo" app:defaultValue="false" app:key="customUiBpm" app:title="Beats per minute (BPM)" />
+	<CheckBoxPreference app:defaultValue="true" app:key="customUiLoop" app:title="Loop" />
+	<CheckBoxPreference app:defaultValue="false" app:key="customUiMarkers" app:title="Markers" />
+	<CheckBoxPreference app:defaultValue="false" app:key="customUiPreamp" app:title="Preamp" />
+	<CheckBoxPreference app:defaultValue="false" app:key="customUiBalance" app:title="Balance" />
+	<CheckBoxPreference app:defaultValue="false" app:key="customUiEqualizer" app:title="Equalizer" />
+	<CheckBoxPreference app:defaultValue="false" app:key="customUiCompressor" app:title="Compressor" />
+	<CheckBoxPreference app:defaultValue="false" app:key="customUiLimiter" app:title="Limiter" />
+	<CheckBoxPreference app:defaultValue="false" app:key="customUiVocal" app:title="Vocal reducer" />
+	<CheckBoxPreference app:defaultValue="false" app:key="customUiFlanger" app:title="Flanger" />
+	<CheckBoxPreference app:defaultValue="false" app:key="customUiEcho" app:title="Echo" />
+	<CheckBoxPreference app:defaultValue="false" app:key="customUiReverb" app:title="Reverb" />
+	<CheckBoxPreference app:defaultValue="false" app:key="customUiMono" app:title="Mono" />
+</PreferenceScreen>

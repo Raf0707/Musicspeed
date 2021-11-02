@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:id="false" android:title="Sort order">
+		<menu>
+			<group android:id="false" android:checkableBehavior="2">
+				<item android:id="false" android:title="Name - ascending   " />
+				<item android:id="false" android:title="Name - descending   " />
+				<item android:id="false" android:title="Modified - ascending   " />
+				<item android:id="false" android:title="Modified - descending   " />
+			</group>
+		</menu>
+	</item>
+	<item android:id="false" android:title="Remove ads" app:showAsAction="0x0" />
+</menu>

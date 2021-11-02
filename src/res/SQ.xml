@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:icon="res/fs.xml" android:id="false" android:title="Go to home directory" app:showAsAction="0x1" />
+	<item android:icon="res/xE.xml" android:id="false" android:title="Storage locations" app:showAsAction="0x1">
+		<menu />
+	</item>
+	<item android:id="false" android:title="Sort order">
+		<menu>
+			<group android:id="false" android:checkableBehavior="2">
+				<item android:id="false" android:title="Name - ascending   " />
+				<item android:id="false" android:title="Name - descending   " />
+				<item android:id="false" android:title="Modified - ascending   " />
+				<item android:id="false" android:title="Modified - descending   " />
+			</group>
+		</menu>
+	</item>
+	<item android:id="false" android:title="Set as home directory" app:showAsAction="0x0" />
+	<item android:id="false" android:title="Remove ads" app:showAsAction="0x0" />
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<androidx.appcompat.widget.Toolbar android:id="false" android:background="{2:2130968792}" android:layout_width="-1" android:layout_height="-2" android:minHeight="{2:2130968581}" app:titleTextColor="deffffff" />
+	<LinearLayout android:orientation="1" android:id="false" android:paddingLeft="{2:2130968889}" android:paddingTop="18dp" android:paddingRight="{2:2130968889}" android:paddingBottom="18dp" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<ScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+				<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textAppearance="resourceId:0x7f120275" android:textStyle="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="8dp" android:text="We care about your privacy and data security." android:textAlignment="4" />
+					<TextView android:textAppearance="resourceId:0x7f120269" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="8dp" android:text="We use %1$s in this app. This service (including its partners) collects unique identifiers and other personal data. You can change your choice at any time in the app settings. &lt;a href=&quot;&quot;&gt;Learn more about this service and your personal data&lt;/a&gt;." />
+					<TextView android:textAppearance="resourceId:0x7f120274" android:textStyle="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Can we continue to use your data for these purposes%1$s?" android:textAlignment="4" />
+					<TextView android:textAppearance="resourceId:0x7f120269" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:text="By agreeing, you are confirming that you are over the age of 16." />
+				</LinearLayout>
+			</ScrollView>
+			<CheckBox android:textAppearance="resourceId:0x7f120269" android:id="false" android:layout_width="-1" android:layout_height="-2" android:minHeight="48dp" android:text="I confirm that I&apos;m 16 years or older" />
+			<include android:layout_width="-1" android:layout_height="-2" layout="res/MC.xml" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textAppearance="resourceId:0x7f120269" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="8dp" android:text="We use the following third party services in this app:" />
+			<ScrollView android:scrollbars="0x200" android:layout_width="-1" android:layout_height="0dp" android:layout_marginBottom="8dp" android:layout_weight="{4:1065353216}">
+				<TextView android:textAppearance="resourceId:0x7f120269" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="" />
+			</ScrollView>
+			<TextView android:textAppearance="resourceId:0x7f120269" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="8dp" android:text="Click on a service to check out its privacy policy%1$s." />
+			<com.google.android.material.button.MaterialButton android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Back" style="resourceId:0x7f120374" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textAppearance="resourceId:0x7f120269" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="8dp" android:text="We won&apos;t collect your data for personalized advertising. Although non-personalized ads don&apos;t use mobile ad identifiers for ad targeting, they do still use mobile identifiers for frequency capping and aggregated ad reporting as well as for combating fraud and abuse." />
+			<com.google.android.material.button.MaterialButton android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Yes, I agree" style="resourceId:0x7f120374" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

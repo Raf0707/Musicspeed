@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:icon="res/wq.xml" android:id="false" android:title="Playing Queue" app:showAsAction="0x2" />
+	<group android:id="false">
+		<item android:icon="res/iT.png" android:id="false" android:title="Save edited track…" app:showAsAction="0x0" />
+		<item android:id="false" android:title="Add to playlist…" app:showAsAction="0x0" />
+		<item android:id="false" android:title="Go to album" app:showAsAction="0x0" />
+		<item android:id="false" android:title="Go to artist" app:showAsAction="0x0" />
+		<item android:id="false" android:title="Share unedited" app:showAsAction="0x0" />
+		<item android:id="false" android:title="Reverse audio" app:showAsAction="0x0" />
+		<item android:id="false" android:title="Tag editor" app:showAsAction="0x0" />
+		<item android:id="false" android:title="Details" app:showAsAction="0x0" />
+	</group>
+	<group android:id="false">
+		<item android:id="false" android:title="Join pitch and tempo" android:checkable="true" app:showAsAction="0x0" />
+		<item android:id="false" android:title="Editor components">
+			<menu>
+				<group android:id="false" android:checkableBehavior="2">
+					<item android:id="false" android:title="Pitch and tempo" />
+					<item android:id="false" android:title="Key and BPM" />
+					<item android:id="false" android:title="Markers" />
+					<item android:id="false" android:title="Equalizer" />
+					<item android:id="false" android:title="Effects" />
+					<item android:id="false" android:title="Custom" />
+				</group>
+				<item android:id="false" android:title="Configure custom…" />
+			</menu>
+		</item>
+	</group>
+	<group android:id="false">
+		<item android:id="false" android:title="Delay playback start" android:checkable="true" app:showAsAction="0x0" />
+		<item android:id="false" android:title="Sleep timer" app:showAsAction="0x0" />
+	</group>
+	<group android:id="false">
+		<item android:icon="res/NT.png" android:id="false" android:orderInCategory="99" app:showAsAction="0x2" />
+	</group>
+	<group android:id="false">
+		<item android:id="false" android:orderInCategory="100" android:title="Clear playing queue" app:showAsAction="0x0" />
+		<item android:id="false" android:orderInCategory="101" android:title="Save playing queue" app:showAsAction="0x0" />
+	</group>
+	<group android:id="false">
+		<item android:id="false" android:orderInCategory="107" android:title="Remove ads" app:showAsAction="0x0" />
+	</group>
+</menu>

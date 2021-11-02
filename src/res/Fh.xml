@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="48dp" android:paddingStart="8dp" android:paddingEnd="8dp">
+	<View android:id="false" android:background="{2:2130969434}" android:layout_width="-1" android:layout_height="1dp" app:layout_constraintTop_toTopOf="0" />
+	<TextView android:textColor="{2:2130969436}" android:id="false" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="resourceId:0x7f1203dc" />
+	<FrameLayout android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_marginStart="32dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toEndOf="false" app:layout_constraintTop_toTopOf="0">
+		<androidx.constraintlayout.widget.ConstraintLayout android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="-1">
+			<TextView android:textColor="{2:2130969436}" android:gravity="0x11" android:id="false" android:background="{2:2130969524}" android:focusable="true" android:clickable="true" android:layout_width="48dp" android:onClick="onEditOriginal" android:layout_marginEnd="8dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="false" app:layout_constraintTop_toTopOf="0" style="resourceId:0x7f1203dd" />
+			<FrameLayout android:layout_width="0dp" android:layout_height="1dp" android:layout_marginBottom="10dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="false" app:layout_constraintStart_toStartOf="false">
+				<View android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="0dp" style="resourceId:0x7f120138" />
+			</FrameLayout>
+			<ImageView android:id="false" android:layout_width="24dp" android:layout_height="24dp" android:tint="{2:2130969436}" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:srcCompat="res/pV.xml" />
+			<TextView android:textColor="{2:2130969436}" android:gravity="0x11" android:id="false" android:layout_width="48dp" android:layout_marginStart="8dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toEndOf="false" app:layout_constraintTop_toTopOf="0" style="resourceId:0x7f1203dd" />
+		</androidx.constraintlayout.widget.ConstraintLayout>
+	</FrameLayout>
+	<androidx.core.widget.ContentLoadingProgressBar android:id="false" android:layout_width="24dp" android:layout_height="-1" android:indeterminate="true" android:indeterminateOnly="true" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@android:style/Widget.Material.ProgressBar.Small" />
+</androidx.constraintlayout.widget.ConstraintLayout>

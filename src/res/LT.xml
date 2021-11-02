@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:card_view="http://schemas.android.com/apk/res-auto" android:background="resourceId:0x106000d" android:focusable="true" android:clickable="true" android:layout_width="128dp" android:layout_height="-2" android:elevation="1dp" app:cardCornerRadius="0dp">
+	<FrameLayout android:id="false" android:background="{2:2130969175}" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:background="{2:16843534}" android:layout_width="-1" android:layout_height="-1">
+			<com.smp.musicspeed.utils.SquareLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+				<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+			</com.smp.musicspeed.utils.SquareLayout>
+			<androidx.constraintlayout.widget.ConstraintLayout android:gravity="0x10" android:orientation="1" android:layout_width="-1" android:layout_height="48dp">
+				<TextView android:textAppearance="resourceId:0x7f120223" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Title" android:singleLine="true" android:fontFamily="sans-serif" android:layout_marginStart="8dp" android:layout_marginEnd="8dp" app:layout_constraintBottom_toTopOf="false" app:layout_constraintTop_toTopOf="0" app:layout_constraintVertical_chainStyle="2" />
+				<TextView android:textAppearance="resourceId:0x7f120223" android:textColor="{2:16842808}" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Text" android:singleLine="true" android:fontFamily="sans-serif" android:layout_marginStart="8dp" android:layout_marginEnd="8dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="false" />
+			</androidx.constraintlayout.widget.ConstraintLayout>
+		</LinearLayout>
+	</FrameLayout>
+</androidx.cardview.widget.CardView>

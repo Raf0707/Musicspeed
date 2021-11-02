@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="{2:2130969175}" android:focusable="true" android:clickable="true" android:descendantFocusability="2" android:layout_width="-1" android:layout_height="72dp">
+	<LinearLayout android:orientation="0" android:background="{2:16843534}" android:layout_width="-1" android:layout_height="-1">
+		<ImageView android:id="false" android:clickable="true" android:layout_width="36dp" android:layout_height="-1" android:src="res/tv.png" android:scaleType="5" android:tint="{2:2130969174}" android:layout_marginStart="4dp" />
+		<FrameLayout android:id="false" android:paddingRight="0dp" android:layout_width="-2" android:layout_height="-1" android:paddingEnd="0dp" android:layout_marginStart="8dp">
+			<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="40dp" android:layout_height="40dp" />
+		</FrameLayout>
+		<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" android:paddingStart="16dp" android:paddingEnd="0dp">
+			<TextView android:textAppearance="resourceId:0x7f12023a" android:id="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:fontFamily="sans-serif" />
+			<TextView android:textAppearance="resourceId:0x7f120223" android:textColor="{2:16842808}" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:fontFamily="sans-serif" />
+		</LinearLayout>
+		<androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="0x10" android:id="false" android:background="{2:2130969524}" android:tint="{2:2130969174}" style="resourceId:0x7f1201aa" />
+	</LinearLayout>
+</FrameLayout>

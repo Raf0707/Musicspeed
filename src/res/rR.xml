@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:icon="res/-N.xml" android:id="false" android:title="Play next" app:showAsAction="0x2" />
+	<item android:icon="res/Nj.xml" android:id="false" android:title="Add to playing queue" app:showAsAction="0x1" />
+	<item android:icon="res/VT.xml" android:id="false" android:title="Add to playlist…" app:showAsAction="0x1" />
+	<item android:id="false" android:title="Select all" app:showAsAction="0x0" />
+</menu>

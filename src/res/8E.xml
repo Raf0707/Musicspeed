@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:card_view="http://schemas.android.com/apk/res-auto" android:orientation="1" android:id="false" android:background="{2:2130969433}" android:layout_width="-1" android:layout_height="-2" android:animateLayoutChanges="true">
+	<androidx.cardview.widget.CardView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="0dp" android:layout_marginStart="0dp" android:layout_marginEnd="0dp" app:cardBackgroundColor="{2:2130969433}" app:cardCornerRadius="0dp" app:cardElevation="0dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp">
+			<RelativeLayout android:layout_width="-1" android:layout_height="48dp" android:paddingStart="8dp">
+				<TextView android:textColor="{2:2130969436}" android:id="false" android:text="Preamp" style="resourceId:0x7f1203dc" />
+				<TextView android:textColor="{2:2130969436}" android:id="false" android:background="{2:2130969524}" android:focusable="true" android:clickable="true" android:layout_centerHorizontal="true" android:onClick="onPreampKeys" style="resourceId:0x7f1203dd" />
+				<View android:layout_alignStart="false" android:layout_alignEnd="false" style="resourceId:0x7f120138" />
+				<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_alignParentEnd="true">
+					<androidx.appcompat.widget.SwitchCompat android:gravity="0x11" android:id="false" android:layout_width="48dp" android:layout_height="48dp" android:tint="{2:2130969695}" />
+					<ImageButton android:id="false" android:background="{2:2130969524}" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/mm1.xml" />
+				</LinearLayout>
+			</RelativeLayout>
+			<LinearLayout android:layout_width="-1" android:layout_height="48dp">
+				<ImageButton android:layout_gravity="0x11" android:id="false" android:background="{2:2130969524}" android:visibility="2" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/PW.xml" />
+				<androidx.appcompat.widget.AppCompatSeekBar android:layout_gravity="0x11" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:max="3000" android:progress="1500" android:layout_weight="{4:1065353216}" android:progressTint="{2:2130968779}" />
+				<ImageButton android:layout_gravity="0x11" android:id="false" android:background="{2:2130969524}" android:visibility="2" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/LL.xml" />
+			</LinearLayout>
+			<View android:background="{2:2130969434}" android:layout_width="-1" android:layout_height="1dp" />
+		</LinearLayout>
+	</androidx.cardview.widget.CardView>
+	<androidx.cardview.widget.CardView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="0dp" android:layout_marginStart="0dp" android:layout_marginEnd="0dp" app:cardBackgroundColor="{2:2130969433}" app:cardCornerRadius="0dp" app:cardElevation="0dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp">
+			<RelativeLayout android:layout_width="-1" android:layout_height="48dp" android:paddingStart="8dp">
+				<TextView android:textColor="{2:2130969436}" android:id="false" android:text="Balance" style="resourceId:0x7f1203dc" />
+				<TextView android:textColor="{2:2130969436}" android:id="false" android:background="{2:2130969524}" android:focusable="true" android:clickable="true" android:text="Balance" android:layout_centerHorizontal="true" android:onClick="onBalanceKeys" style="resourceId:0x7f1203dd" />
+				<View android:layout_alignStart="false" android:layout_alignEnd="false" style="resourceId:0x7f120138" />
+				<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_alignParentEnd="true">
+					<androidx.appcompat.widget.SwitchCompat android:gravity="0x11" android:id="false" android:layout_width="48dp" android:layout_height="48dp" android:tint="{2:2130969695}" />
+					<ImageButton android:id="false" android:background="{2:2130969524}" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/mm1.xml" />
+				</LinearLayout>
+			</RelativeLayout>
+			<LinearLayout android:layout_width="-1" android:layout_height="48dp">
+				<ImageButton android:layout_gravity="0x11" android:id="false" android:background="{2:2130969524}" android:visibility="2" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/PW.xml" />
+				<androidx.appcompat.widget.AppCompatSeekBar android:layout_gravity="0x11" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:max="3000" android:progress="1500" android:layout_weight="{4:1065353216}" android:progressTint="{2:2130968779}" />
+				<ImageButton android:layout_gravity="0x11" android:id="false" android:background="{2:2130969524}" android:visibility="2" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/LL.xml" />
+			</LinearLayout>
+			<View android:background="{2:2130969434}" android:layout_width="-1" android:layout_height="1dp" />
+		</LinearLayout>
+	</androidx.cardview.widget.CardView>
+	<androidx.cardview.widget.CardView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="0dp" android:layout_marginStart="0dp" android:layout_marginEnd="0dp" app:cardBackgroundColor="{2:2130969433}" app:cardCornerRadius="0dp" app:cardElevation="0dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp">
+			<RelativeLayout android:layout_width="-1" android:layout_height="48dp" android:paddingStart="8dp">
+				<TextView android:textColor="{2:2130969436}" android:id="false" android:text="Equalizer" style="resourceId:0x7f1203dc" />
+				<ImageButton android:id="false" android:background="{2:2130969524}" android:paddingTop="3dp" android:layout_width="48dp" android:layout_height="48dp" android:src="res/3Q.png" android:scaleType="5" android:tint="{2:2130969695}" android:layout_toEndOf="false" />
+				<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_alignParentEnd="true">
+					<androidx.appcompat.widget.SwitchCompat android:gravity="0x11" android:id="false" android:layout_width="48dp" android:layout_height="48dp" android:tint="{2:2130969695}" />
+					<ImageButton android:id="false" android:background="{2:2130969524}" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/mm1.xml" />
+				</LinearLayout>
+			</RelativeLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<LinearLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:layout_marginStart="8dp" android:layout_marginEnd="8dp">
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="14sp" android:textColor="{2:2130969436}" android:gravity="0x11" android:background="{2:2130969524}" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="-0.0" />
+						<View style="resourceId:0x7f120137" />
+						<ImageButton android:layout_gravity="0x11" android:background="{2:2130969524}" android:visibility="2" android:layout_width="36dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/LL.xml" />
+						<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layoutDirection="0">
+							<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="200dp">
+								<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar android:layout_width="0dp" android:layout_height="0dp" android:max="3000" android:progress="1500" android:splitTrack="false" android:progressTint="{2:2130968779}" app:seekBarRotation="270" />
+							</com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+						</FrameLayout>
+						<ImageButton android:layout_gravity="0x11" android:background="{2:2130969524}" android:visibility="2" android:layout_width="36dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/PW.xml" />
+						<TextView android:textSize="14sp" android:textColor="{2:2130969436}" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="60" />
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="14sp" android:textColor="{2:2130969436}" android:gravity="0x11" android:background="{2:2130969524}" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="-0.0" />
+						<View style="resourceId:0x7f120137" />
+						<ImageButton android:layout_gravity="0x11" android:background="{2:2130969524}" android:visibility="2" android:layout_width="36dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/LL.xml" />
+						<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layoutDirection="0">
+							<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="200dp">
+								<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar android:layout_width="0dp" android:layout_height="0dp" android:max="3000" android:progress="1500" android:splitTrack="false" android:progressTint="{2:2130968779}" app:seekBarRotation="270" />
+							</com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+						</FrameLayout>
+						<ImageButton android:layout_gravity="0x11" android:background="{2:2130969524}" android:visibility="2" android:layout_width="36dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/PW.xml" />
+						<TextView android:textSize="14sp" android:textColor="{2:2130969436}" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="150" />
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="14sp" android:textColor="{2:2130969436}" android:gravity="0x11" android:background="{2:2130969524}" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="-0.0" />
+						<View style="resourceId:0x7f120137" />
+						<ImageButton android:layout_gravity="0x11" android:background="{2:2130969524}" android:visibility="2" android:layout_width="36dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/LL.xml" />
+						<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layoutDirection="0">
+							<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="200dp">
+								<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar android:layout_width="0dp" android:layout_height="0dp" android:max="3000" android:progress="1500" android:splitTrack="false" android:progressTint="{2:2130968779}" app:seekBarRotation="270" />
+							</com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+						</FrameLayout>
+						<ImageButton android:layout_gravity="0x11" android:background="{2:2130969524}" android:visibility="2" android:layout_width="36dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/PW.xml" />
+						<TextView android:textSize="14sp" android:textColor="{2:2130969436}" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="400" />
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="14sp" android:textColor="{2:2130969436}" android:gravity="0x11" android:background="{2:2130969524}" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="-0.0" />
+						<View style="resourceId:0x7f120137" />
+						<ImageButton android:layout_gravity="0x11" android:background="{2:2130969524}" android:visibility="2" android:layout_width="36dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/LL.xml" />
+						<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layoutDirection="0">
+							<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="200dp">
+								<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar android:layout_width="0dp" android:layout_height="0dp" android:max="3000" android:progress="1500" android:splitTrack="false" android:progressTint="{2:2130968779}" app:seekBarRotation="270" />
+							</com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+						</FrameLayout>
+						<ImageButton android:layout_gravity="0x11" android:background="{2:2130969524}" android:visibility="2" android:layout_width="36dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/PW.xml" />
+						<TextView android:textSize="14sp" android:textColor="{2:2130969436}" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="1K" />
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="14sp" android:textColor="{2:2130969436}" android:gravity="0x11" android:background="{2:2130969524}" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="-0.0" />
+						<View style="resourceId:0x7f120137" />
+						<ImageButton android:layout_gravity="0x11" android:background="{2:2130969524}" android:visibility="2" android:layout_width="36dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/LL.xml" />
+						<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layoutDirection="0">
+							<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="200dp">
+								<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar android:layout_width="0dp" android:layout_height="0dp" android:max="3000" android:progress="1500" android:splitTrack="false" android:progressTint="{2:2130968779}" app:seekBarRotation="270" />
+							</com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+						</FrameLayout>
+						<ImageButton android:layout_gravity="0x11" android:background="{2:2130969524}" android:visibility="2" android:layout_width="36dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/PW.xml" />
+						<TextView android:textSize="14sp" android:textColor="{2:2130969436}" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="2K" />
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="14sp" android:textColor="{2:2130969436}" android:gravity="0x11" android:background="{2:2130969524}" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="-0.0" />
+						<View style="resourceId:0x7f120137" />
+						<ImageButton android:layout_gravity="0x11" android:background="{2:2130969524}" android:visibility="2" android:layout_width="36dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/LL.xml" />
+						<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layoutDirection="0">
+							<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="200dp">
+								<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar android:layout_width="0dp" android:layout_height="0dp" android:max="3000" android:progress="1500" android:splitTrack="false" android:progressTint="{2:2130968779}" app:seekBarRotation="270" />
+							</com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+						</FrameLayout>
+						<ImageButton android:layout_gravity="0x11" android:background="{2:2130969524}" android:visibility="2" android:layout_width="36dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/PW.xml" />
+						<TextView android:textSize="14sp" android:textColor="{2:2130969436}" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="4K" />
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="14sp" android:textColor="{2:2130969436}" android:gravity="0x11" android:background="{2:2130969524}" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="-0.0" />
+						<View style="resourceId:0x7f120137" />
+						<ImageButton android:layout_gravity="0x11" android:background="{2:2130969524}" android:visibility="2" android:layout_width="36dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/LL.xml" />
+						<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layoutDirection="0">
+							<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="200dp">
+								<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar android:layout_width="0dp" android:layout_height="0dp" android:max="3000" android:progress="1500" android:splitTrack="false" android:progressTint="{2:2130968779}" app:seekBarRotation="270" />
+							</com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+						</FrameLayout>
+						<ImageButton android:layout_gravity="0x11" android:background="{2:2130969524}" android:visibility="2" android:layout_width="36dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/PW.xml" />
+						<TextView android:textSize="14sp" android:textColor="{2:2130969436}" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="8K" />
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="14sp" android:textColor="{2:2130969436}" android:gravity="0x11" android:background="{2:2130969524}" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="-0.0" />
+						<View style="resourceId:0x7f120137" />
+						<ImageButton android:layout_gravity="0x11" android:background="{2:2130969524}" android:visibility="2" android:layout_width="36dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/LL.xml" />
+						<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layoutDirection="0">
+							<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="200dp">
+								<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar android:layout_width="0dp" android:layout_height="0dp" android:max="3000" android:progress="1500" android:splitTrack="false" android:progressTint="{2:2130968779}" app:seekBarRotation="270" />
+							</com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+						</FrameLayout>
+						<ImageButton android:layout_gravity="0x11" android:background="{2:2130969524}" android:visibility="2" android:layout_width="36dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" app:srcCompat="res/PW.xml" />
+						<TextView android:textSize="14sp" android:textColor="{2:2130969436}" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="16K" />
+					</LinearLayout>
+				</LinearLayout>
+				<include layout="res/RY.xml" />
+			</LinearLayout>
+			<View android:background="{2:2130969434}" android:layout_width="-1" android:layout_height="1dp" />
+		</LinearLayout>
+	</androidx.cardview.widget.CardView>
+</LinearLayout>

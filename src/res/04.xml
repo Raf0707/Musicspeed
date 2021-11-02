@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" style="resourceId:0x7f1203d4">
+	<LinearLayout style="resourceId:0x7f1203d4">
+		<LinearLayout style="resourceId:0x7f1203da">
+			<ImageView android:id="false" style="resourceId:0x7f1203d8" />
+			<TextView android:id="false" style="resourceId:0x7f1203d5" />
+		</LinearLayout>
+		<View style="resourceId:0x7f1203d9" />
+		<LinearLayout android:id="false" android:padding="0dp" style="resourceId:0x7f1203da" />
+	</LinearLayout>
+</ScrollView>

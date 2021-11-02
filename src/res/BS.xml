@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto" xmlns:vumeter="http://schemas.android.com/apk/res-auto" android:background="res/js1.xml" android:layout_width="-1" android:layout_height="72dp">
+	<FrameLayout android:id="false" android:background="ffffff" android:clickable="true" android:layout_width="-1" android:layout_height="-1" android:foreground="{2:2130969523}">
+		<LinearLayout android:layout_width="-1" android:layout_height="-1">
+			<ImageView android:id="false" android:clickable="true" android:layout_width="36dp" android:layout_height="-1" android:src="res/tv.png" android:scaleType="5" android:tint="{2:2130969174}" android:layout_marginStart="0dp" />
+			<FrameLayout android:layout_gravity="0x10" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginStart="8dp" android:layout_marginEnd="16dp">
+				<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+				<androidx.cardview.widget.CardView android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" card_view:cardBackgroundColor="{2:2130968779}" card_view:cardCornerRadius="2dp" card_view:cardElevation="0dp">
+					<io.gresse.hugo.vumeterlibrary.VuMeterView android:layout_gravity="0x11" android:id="false" android:padding="0dp" android:visibility="2" android:layout_width="24dp" android:layout_height="24dp" card_view:vumeter_backgroundColor="{2:2130968870}" card_view:vumeter_blockNumber="3" card_view:vumeter_blockSpacing="2dp" card_view:vumeter_speed="10" card_view:vumeter_startOff="true" card_view:vumeter_stopSize="5dp" />
+				</androidx.cardview.widget.CardView>
+			</FrameLayout>
+			<LinearLayout android:gravity="0x10" android:layout_gravity="0x10" android:orientation="1" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+				<LinearLayout android:layout_width="-2" android:layout_height="-2">
+					<View android:layout_gravity="0x10" android:id="false" android:background="res/Oo1.xml" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginEnd="8dp" />
+					<TextView android:textAppearance="resourceId:0x7f12023a" android:textColor="{2:16842806}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Unknown" android:maxLines="1" android:singleLine="true" />
+				</LinearLayout>
+				<TextView android:textAppearance="resourceId:0x7f120223" android:textColor="{2:16842808}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Unknown" android:maxLines="1" />
+			</LinearLayout>
+			<androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="0x10" android:id="false" android:background="{2:2130969524}" android:tint="{2:2130969174}" style="resourceId:0x7f1201aa" />
+		</LinearLayout>
+		<View android:layout_gravity="0x50" android:id="false" android:background="{2:2130968895}" android:layout_width="-1" android:layout_height="1dp" android:layout_marginStart="100dp" />
+	</FrameLayout>
+</FrameLayout>

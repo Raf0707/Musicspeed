@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:id="false" android:title="Play next" app:showAsAction="0x0" />
+	<item android:id="false" android:title="Add to playing queue" app:showAsAction="0x0" />
+	<item android:id="false" android:title="Add to playlist…" app:showAsAction="0x0" />
+	<item android:id="false" android:title="Share track" app:showAsAction="0x0" />
+	<item android:id="false" android:title="Tag editor" app:showAsAction="0x0" />
+	<item android:id="false" android:title="Details" app:showAsAction="0x0" />
+	<item android:id="false" android:title="Delete from device" app:showAsAction="0x0" />
+</menu>

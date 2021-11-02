@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<ListPreference app:defaultValue="Medium" app:dialogTitle="Time stretch sound quality" app:entries="resourceId:0x7f03000d" app:entryValues="resourceId:0x7f03001c" app:key="stretchQuality" app:title="Time stretch sound quality" />
+	<ListPreference app:defaultValue="12288" app:dialogTitle="Processing buffer size" app:entries="resourceId:0x7f030003" app:entryValues="resourceId:0x7f030015" app:key="preferences_buffer_size" app:title="Processing buffer size" />
+	<CheckBoxPreference android:defaultValue="true" app:key="useNativeLibrary" app:summary="Improves timing of loop and marker button presses, but may cause playback problems on some devices" app:title="Use native audio library" />
+	<CheckBoxPreference android:dependency="useNativeLibrary" app:defaultValue="false" app:key="preferences_low_latency" app:summary="Improves timing of loop and marker button presses, but may cause playback problems on some devices" app:title="Lowest latency" />
+</PreferenceScreen>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:minWidth="300dp">
+	<ScrollView android:paddingTop="16dp" android:layout_width="-1" android:layout_height="-1" android:paddingStart="24dp" android:paddingEnd="24dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<com.google.android.material.textfield.TextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" app:hintTextColor="{2:16842806}">
+				<com.google.android.material.textfield.TextInputEditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" android:inputType="0x1" />
+			</com.google.android.material.textfield.TextInputLayout>
+			<RadioGroup android:orientation="1" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp">
+				<RadioButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Android playlist" />
+				<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="8dp">
+					<TextView android:layout_width="-2" android:layout_height="-2" android:text="Visible in other music players. May not contain video tracks and entries may get deleted by the system in some circumstances." />
+				</LinearLayout>
+				<RadioButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Internal playlist" />
+				<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="8dp">
+					<TextView android:layout_width="-2" android:layout_height="-2" android:text="Not visible in other music players. May contain video tracks and entries will not be removed except by user action." />
+				</LinearLayout>
+			</RadioGroup>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

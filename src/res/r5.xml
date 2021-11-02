@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="000" android:layout_width="-1" android:layout_height="-1" android:animateLayoutChanges="true">
+	<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<FrameLayout android:layout_width="-1" android:layout_height="-1">
+			<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1" />
+			<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1" />
+		</FrameLayout>
+		<View android:id="false" android:background="res/cY.xml" android:layout_width="-1" android:layout_height="8dp" ads:layout_anchor="false" />
+		<FrameLayout android:id="false" android:clickable="true" android:layout_width="-1" android:layout_height="-1" ads:behavior_hideable="false" ads:behavior_peekHeight="{2:2130968581}" ads:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+			<include layout="res/4D.xml" />
+		</FrameLayout>
+		<FrameLayout android:layout_width="-1" android:layout_height="-1" android:animateLayoutChanges="true">
+			<View android:id="false" android:background="cc000" android:layout_width="-1" android:layout_height="-1" />
+			<TextView android:textSize="128sp" android:textColor="ffffff" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="1" style="resourceId:0x7f12026d" />
+		</FrameLayout>
+	</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

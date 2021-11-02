@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2">
+		<com.github.stephenvinouze.materialnumberpickercore.MaterialNumberPicker android:id="false" android:layout_width="-2" android:layout_height="-2" app:mnpEditable="false" app:mnpMaxValue="11" app:mnpMinValue="0" app:mnpSeparatorColor="e0e0e0" app:mnpTextColor="{2:16842806}" app:mnpTextSize="16sp" app:mnpTextStyle="0x1" app:mnpWrapped="true" />
+		<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+			<ImageButton android:id="false" android:background="{2:2130969524}" android:paddingTop="16dp" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969695}" android:layout_alignParentTop="true" android:layout_alignEnd="false" app:srcCompat="res/mm1.xml" />
+			<CheckBox android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="minor" android:layout_centerVertical="true" android:paddingEnd="16dp" />
+		</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

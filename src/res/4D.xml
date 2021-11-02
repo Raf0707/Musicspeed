@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:clipChildren="false" android:layout_width="-1" android:layout_height="-1">
+	<androidx.constraintlayout.widget.ConstraintLayout android:orientation="1" android:id="false" android:background="{2:2130969433}" android:clipChildren="true" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" app:layout_constraintTop_toTopOf="0">
+			<ViewFlipper android:id="false" android:background="{2:2130968792}" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true" android:elevation="0dp">
+				<androidx.appcompat.widget.Toolbar android:theme="resourceId:0x7f1203e3" android:id="false" android:background="{2:2130969698}" android:layout_width="-1" android:layout_height="{2:2130968581}" app:navigationIcon="resourceId:0x106000d" app:title="Nothing playing" app:titleTextAppearance="resourceId:0x7f1201ba" />
+				<com.smp.musicspeed.misc.MarqueeToolbar android:theme="resourceId:0x7f1203e3" android:id="false" android:background="{2:2130968792}" android:layout_width="-1" android:layout_height="{2:2130968581}" app:popupTheme="{2:2130969439}" app:titleTextAppearance="resourceId:0x7f1201ba" />
+			</ViewFlipper>
+		</LinearLayout>
+		<ScrollView android:id="false" android:background="{2:2130969433}" android:layout_width="-1" android:layout_height="-2" app:layout_constrainedHeight="true" app:layout_constraintBottom_toTopOf="false" app:layout_constraintTop_toBottomOf="false" app:layout_constraintVertical_bias="{4:0}" app:layout_constraintVertical_chainStyle="1">
+			<include layout="res/aj1.xml" />
+		</ScrollView>
+		<com.smp.musicspeed.waveform.MscHorizontalScrollView android:id="false" android:background="{2:2130968682}" android:visibility="2" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="0dp" android:animateLayoutChanges="true" android:layoutDirection="0" app:layout_constraintBottom_toTopOf="false" app:layout_constraintTop_toBottomOf="false" app:layout_constraintVertical_bias="{4:1065353216}">
+			<LinearLayout android:layout_width="-1" android:layout_height="-1">
+				<View android:id="false" android:layout_width="0dp" android:layout_height="0dp" />
+				<rm.com.audiowave.AudioWaveView android:id="false" android:focusable="false" android:clickable="false" android:layout_width="200dp" android:layout_height="-1" android:layout_margin="0dp" app:accentColor="{2:2130968779}" app:accentTextColor="{2:2130968870}" app:animateExpansion="true" app:chunkHeightPercentage="{4:1061158912}" app:chunkRadius="1dp" app:chunkSpacing="2dp" app:chunkWidth="2dp" app:minChunkHeight="2dp" app:normalTextColor="{2:2130969433}" app:waveColor="resourceId:0x106000b" />
+				<View android:id="false" android:layout_width="0dp" android:layout_height="0dp" />
+			</LinearLayout>
+		</com.smp.musicspeed.waveform.MscHorizontalScrollView>
+		<com.github.stkent.amplify.prompt.DefaultLayoutPromptView android:id="false" android:paddingTop="0dp" android:layout_width="-1" android:layout_height="-2" app:layout_constraintBottom_toTopOf="false" app:prompt_view_background_color="{2:2130968682}" app:prompt_view_positive_button_background_color="ffffff" app:prompt_view_positive_button_border_color="ffffff" />
+		<androidx.constraintlayout.widget.ConstraintLayout android:id="false" android:background="{2:2130968682}" android:clipChildren="false" android:layout_width="-1" android:layout_height="-2" android:layoutDirection="0" app:layout_constraintBottom_toTopOf="false">
+			<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x800013" android:id="false" android:paddingBottom="0dp" android:layout_width="-2" android:layout_height="-2" android:text="-" android:fontFamily="sans-serif" android:paddingStart="8dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+			<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x800015" android:id="false" android:paddingBottom="0dp" android:layout_width="-2" android:layout_height="-2" android:text="-" android:fontFamily="sans-serif" android:paddingEnd="8dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" />
+			<FrameLayout android:id="false" android:clipChildren="false" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="false" app:layout_constraintHeight_min="20dp" app:layout_constraintStart_toEndOf="false" app:layout_constraintTop_toTopOf="0">
+				<View android:id="false" android:background="res/_4.xml" android:layout_width="0dp" android:layout_height="-1" />
+				<androidx.appcompat.widget.AppCompatSeekBar android:layout_gravity="0x11" android:id="false" android:clipChildren="false" android:layout_width="-1" android:layout_height="-1" android:max="10000" android:progress="0" android:progressTint="{2:2130968779}" android:progressBackgroundTint="resourceId:0x106000b" />
+			</FrameLayout>
+		</androidx.constraintlayout.widget.ConstraintLayout>
+		<RelativeLayout android:id="false" android:background="{2:2130968682}" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" android:layoutDirection="0" app:layout_constraintBottom_toBottomOf="0">
+			<FrameLayout android:id="false" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+				<ImageButton android:id="false" android:background="{2:2130969524}" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="ffffff" android:onClick="onPlayModeClicked" app:srcCompat="res/DB.xml" />
+			</FrameLayout>
+			<LinearLayout android:id="false" android:paddingTop="8dp" android:paddingBottom="8dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+				<ImageButton android:id="false" android:background="{2:2130969524}" android:visibility="0" android:layout_width="48dp" android:layout_height="-1" android:src="res/cq1.png" android:scaleType="5" android:onClick="onSkipPrevClicked" />
+				<ImageButton android:id="false" android:background="{2:2130969524}" android:layout_width="48dp" android:layout_height="-1" android:src="res/33.png" android:scaleType="5" android:tint="ffffff" />
+				<FrameLayout android:clipToPadding="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="4dp" android:layout_marginEnd="4dp">
+					<include layout="res/Mi.xml" />
+				</FrameLayout>
+				<ImageButton android:id="false" android:background="{2:2130969524}" android:layout_width="48dp" android:layout_height="-1" android:src="res/ST.png" android:scaleType="5" android:tint="ffffff" />
+				<ImageButton android:id="false" android:background="{2:2130969524}" android:visibility="0" android:layout_width="48dp" android:layout_height="-1" android:src="res/IV.png" android:scaleType="5" android:onClick="onSkipNextClicked" />
+			</LinearLayout>
+			<FrameLayout android:id="false" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+				<ImageButton android:id="false" android:background="{2:2130969524}" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="ffffff" android:onClick="onShuffleClicked" app:srcCompat="res/wG.xml" />
+			</FrameLayout>
+		</RelativeLayout>
+		<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="false">
+			<include layout="res/ny.xml" />
+		</FrameLayout>
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

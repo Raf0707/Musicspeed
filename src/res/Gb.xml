@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layoutDirection="0">
+		<View android:id="false" android:background="90000" android:layout_width="-1" android:layout_height="-1" />
+		<include android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" layout="res/6E.xml" />
+		<include android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" layout="res/el.xml" />
+	</FrameLayout>
+	<LinearLayout android:id="false" android:background="res/js.xml" android:baselineAligned="false" style="resourceId:0x7f1201a6">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<TextView android:textSize="15sp" android:textColor="ffffffff" android:ellipsize="2" android:gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:paddingStart="12dp" android:paddingEnd="12dp" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+			<LinearLayout android:orientation="0" android:id="false" android:paddingLeft="5dp" android:paddingRight="10dp" android:visibility="2" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:paddingStart="5dp" android:paddingEnd="10dp">
+				<TextView android:textSize="10sp" android:textColor="ffffffff" android:layout_gravity="0x10" android:id="false" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Visit Advertiser" android:paddingEnd="5dp" />
+				<ImageButton android:id="false" android:layout_width="-2" android:layout_height="-2" style="resourceId:0x7f1201a8" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:gravity="0x800005" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layoutDirection="0">
+		<ImageButton android:id="false" style="resourceId:0x7f120191" />
+	</LinearLayout>
+	<View android:id="false" android:background="b0000" android:layout_width="-1" android:layout_height="48dp" android:layoutDirection="0" />
+	<LinearLayout android:id="false" android:layout_width="-2" android:layout_height="48dp" android:layoutDirection="0">
+		<include android:id="false" layout="res/-J.xml" />
+		<TextView android:textSize="12sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="4dp" android:layout_marginStart="4dp" />
+	</LinearLayout>
+	<LinearLayout android:id="false" android:layout_width="-2" android:layout_height="48dp" android:layoutDirection="0" android:paddingStart="10dp" android:paddingEnd="10dp">
+		<TextView android:id="false" style="resourceId:0x7f1201a3" />
+		<TextView android:id="false" style="resourceId:0x7f1201a5" />
+		<TextView android:id="false" style="resourceId:0x7f1201a4" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layoutDirection="0">
+		<TextView android:textSize="12sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+		<ImageButton android:id="false" android:visibility="2" android:scaleType="3" android:alpha="{4:1056964608}" style="resourceId:0x7f120190" />
+		<ImageButton android:id="false" android:visibility="2" style="resourceId:0x7f120191" />
+		<ImageButton android:id="false" style="resourceId:0x7f120193" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layoutDirection="0">
+		<ImageButton android:id="false" style="resourceId:0x7f120194" />
+		<ImageButton android:id="false" style="resourceId:0x7f120192" />
+	</LinearLayout>
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="12dp" android:layoutDirection="0">
+		<SeekBar android:id="false" android:layout_width="-1" android:layout_height="-1" android:maxHeight="2dp" android:progressDrawable="res/MS.xml" android:minHeight="2dp" android:thumb="res/Xs1.xml" android:thumbOffset="0dp" android:contentDescription="Playback progress" android:paddingStart="0dp" android:paddingEnd="0dp" android:elevation="10dp" android:splitTrack="false" />
+	</FrameLayout>
+</merge>

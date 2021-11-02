@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="{2:2130969172}" android:clipChildren="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="{2:2130968581}">
+	<androidx.recyclerview.widget.RecyclerView android:id="false" android:padding="8dp" android:clipToPadding="false" android:layout_width="-1" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="false" />
+	<com.bartoszlipinski.recyclerviewheader2.RecyclerViewHeader android:gravity="0x1" android:id="false" android:paddingTop="8dp" android:layout_width="-1" android:layout_height="0dp" android:paddingStart="8dp" android:paddingEnd="8dp" app:layout_constraintTop_toTopOf="false">
+		<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+	</com.bartoszlipinski.recyclerviewheader2.RecyclerViewHeader>
+	<FrameLayout android:id="false" android:background="{2:2130968792}" android:layout_width="-1" android:layout_height="-2" android:elevation="4dp" app:layout_constraintTop_toTopOf="0">
+		<androidx.appcompat.widget.Toolbar android:theme="resourceId:0x7f1203e3" android:id="false" android:background="{2:2130968792}" android:layout_width="-1" android:layout_height="{2:2130968581}" app:navigationIcon="{2:2130969035}" app:popupTheme="{2:2130969439}" app:titleTextAppearance="resourceId:0x7f1201ba" />
+	</FrameLayout>
+	<TextView android:textSize="20sp" android:textColor="{2:16842808}" android:layout_gravity="0x11" android:id="resourceId:0x1020004" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Empty" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="false" />
+</androidx.constraintlayout.widget.ConstraintLayout>

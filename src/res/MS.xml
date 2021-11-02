@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="resourceId:0x1020000">
+		<shape android:shape="0">
+			<solid android:color="26000" />
+		</shape>
+	</item>
+	<item android:id="resourceId:0x102000f">
+		<clip>
+			<shape android:shape="0">
+				<solid android:color="5cffffff" />
+			</shape>
+		</clip>
+	</item>
+	<item android:id="resourceId:0x102000d">
+		<clip>
+			<shape android:shape="0">
+				<solid android:color="ffffff" />
+			</shape>
+		</clip>
+	</item>
+</layer-list>

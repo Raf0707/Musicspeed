@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<com.google.android.material.appbar.AppBarLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2" app:layout_scrollFlags="0x5">
+			<androidx.appcompat.widget.Toolbar android:id="false" android:elevation="0dp" app:titleTextAppearance="resourceId:0x7f1202fd" style="resourceId:0x7f1202fe" />
+		</FrameLayout>
+		<com.google.android.material.tabs.TabLayout android:id="false" android:layout_width="-1" android:layout_height="48dp" app:tabContentStart="72dp" app:tabMode="0" app:tabSelectedTextColor="{2:2130969602}" app:tabTextColor="{2:2130969603}" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<androidx.viewpager.widget.ViewPager android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="{2:2130968581}" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

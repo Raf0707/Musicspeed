@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:card_view="http://schemas.android.com/apk/res-auto" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+	<androidx.cardview.widget.CardView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:layout_marginStart="0dp" android:layout_marginEnd="0dp" app:cardBackgroundColor="{2:2130969433}" app:cardCornerRadius="0dp" app:cardElevation="0dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp">
+			<RelativeLayout android:layout_width="-1" android:layout_height="48dp" android:paddingStart="8dp">
+				<TextView android:textColor="{2:2130969436}" android:id="false" android:text="Pitch" style="resourceId:0x7f1203dc" />
+				<TextView android:textColor="{2:2130969436}" android:gravity="0x11" android:id="false" android:background="{2:2130969524}" android:focusable="true" android:clickable="true" android:text="+0.00" android:layout_centerHorizontal="true" android:onClick="onPitchKeys" style="resourceId:0x7f1203dd" />
+				<View android:layout_alignStart="false" android:layout_alignEnd="false" style="resourceId:0x7f120138" />
+				<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_alignParentEnd="true">
+					<ImageButton android:id="false" android:background="{2:2130969524}" android:visibility="2" android:layout_width="48dp" android:layout_height="48dp" android:src="res/u8.png" android:scaleType="5" android:tint="{2:2130969435}" android:onClick="onLinkClicked" />
+					<ImageButton android:id="false" android:background="{2:2130969524}" android:visibility="2" android:layout_width="48dp" android:layout_height="48dp" android:src="res/sh.png" android:scaleType="5" android:tint="{2:2130969435}" android:onClick="onPitchKeys" />
+					<ImageButton android:id="false" android:background="{2:2130969524}" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969435}" android:onClick="onResetClicked" app:srcCompat="res/mm1.xml" />
+				</LinearLayout>
+			</RelativeLayout>
+			<LinearLayout android:layout_width="-1" android:layout_height="48dp">
+				<ImageButton android:id="false" android:background="{2:2130969524}" android:visibility="2" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969435}" android:onClick="onPlusMinusClicked" app:srcCompat="res/PW.xml" />
+				<androidx.appcompat.widget.AppCompatSeekBar android:layout_gravity="0x11" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:max="2400" android:progress="1200" android:layout_weight="{4:1065353216}" android:progressTint="{2:2130968779}" />
+				<ImageButton android:id="false" android:background="{2:2130969524}" android:visibility="2" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969435}" android:onClick="onPlusMinusClicked" app:srcCompat="res/LL.xml" />
+			</LinearLayout>
+			<include android:id="false" layout="res/Fh.xml" />
+			<View android:background="{2:2130969434}" android:layout_width="-1" android:layout_height="1dp" />
+		</LinearLayout>
+	</androidx.cardview.widget.CardView>
+	<androidx.cardview.widget.CardView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="0dp" android:layout_marginStart="0dp" android:layout_marginEnd="0dp" app:cardBackgroundColor="{2:2130969433}" app:cardCornerRadius="0dp" app:cardElevation="0dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp">
+			<RelativeLayout android:layout_width="-1" android:layout_height="48dp" android:paddingStart="8dp">
+				<TextView android:textColor="{2:2130969436}" android:id="false" android:text="Tempo" style="resourceId:0x7f1203dc" />
+				<TextView android:textColor="{2:2130969436}" android:gravity="0x11" android:id="false" android:background="{2:2130969524}" android:focusable="true" android:clickable="true" android:text="100%" android:layout_centerHorizontal="true" android:onClick="onTempoKeys" style="resourceId:0x7f1203dd" />
+				<View android:layout_alignStart="false" android:layout_alignEnd="false" style="resourceId:0x7f120138" />
+				<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_alignParentEnd="true">
+					<ImageButton android:id="false" android:background="{2:2130969524}" android:visibility="2" android:layout_width="48dp" android:layout_height="48dp" android:src="res/sh.png" android:scaleType="5" android:tint="{2:2130969435}" android:onClick="onTempoKeys" />
+					<ImageButton android:id="false" android:background="{2:2130969524}" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969435}" android:onClick="onResetClicked" app:srcCompat="res/mm1.xml" />
+				</LinearLayout>
+			</RelativeLayout>
+			<LinearLayout android:layout_width="-1" android:layout_height="48dp">
+				<ImageButton android:id="false" android:background="{2:2130969524}" android:visibility="2" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969435}" android:onClick="onPlusMinusClicked" app:srcCompat="res/PW.xml" />
+				<androidx.appcompat.widget.AppCompatSeekBar android:layout_gravity="0x11" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:max="4000" android:progress="2000" android:layout_weight="{4:1065353216}" android:progressTint="{2:2130968779}" />
+				<ImageButton android:id="false" android:background="{2:2130969524}" android:visibility="2" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969435}" android:onClick="onPlusMinusClicked" app:srcCompat="res/LL.xml" />
+			</LinearLayout>
+			<include android:id="false" layout="res/Fh.xml" />
+			<View android:background="{2:2130969434}" android:layout_width="-1" android:layout_height="1dp" />
+		</LinearLayout>
+	</androidx.cardview.widget.CardView>
+	<androidx.cardview.widget.CardView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:layout_marginStart="0dp" android:layout_marginEnd="0dp" app:cardBackgroundColor="{2:2130969433}" app:cardCornerRadius="0dp" app:cardElevation="0dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0dp">
+			<RelativeLayout android:layout_width="-1" android:layout_height="48dp" android:paddingStart="8dp">
+				<TextView android:textColor="{2:2130969436}" android:id="false" android:text="Rate" style="resourceId:0x7f1203dc" />
+				<TextView android:textColor="{2:2130969436}" android:gravity="0x11" android:id="false" android:background="{2:2130969524}" android:focusable="true" android:clickable="true" android:text="100%" android:layout_centerHorizontal="true" android:onClick="onRateKeys" style="resourceId:0x7f1203dd" />
+				<View android:layout_alignStart="false" android:layout_alignEnd="false" style="resourceId:0x7f120138" />
+				<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_alignParentEnd="true">
+					<ImageButton android:id="false" android:background="{2:2130969524}" android:visibility="2" android:layout_width="48dp" android:layout_height="48dp" android:src="res/u8.png" android:scaleType="5" android:tint="{2:2130969435}" android:onClick="onLinkClicked" />
+					<ImageButton android:id="false" android:background="{2:2130969524}" android:visibility="2" android:layout_width="48dp" android:layout_height="48dp" android:src="res/sh.png" android:scaleType="5" android:tint="{2:2130969435}" android:onClick="onRateKeys" />
+					<ImageButton android:id="false" android:background="{2:2130969524}" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969435}" android:onClick="onResetClicked" app:srcCompat="res/mm1.xml" />
+				</LinearLayout>
+			</RelativeLayout>
+			<LinearLayout android:layout_width="-1" android:layout_height="48dp">
+				<ImageButton android:id="false" android:background="{2:2130969524}" android:visibility="2" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969435}" android:onClick="onPlusMinusClicked" app:srcCompat="res/PW.xml" />
+				<androidx.appcompat.widget.AppCompatSeekBar android:layout_gravity="0x11" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:max="4000" android:progress="2000" android:layout_weight="{4:1065353216}" android:progressTint="{2:2130968779}" />
+				<ImageButton android:id="false" android:background="{2:2130969524}" android:visibility="2" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969435}" android:onClick="onPlusMinusClicked" app:srcCompat="res/LL.xml" />
+			</LinearLayout>
+			<include android:id="false" layout="res/Fh.xml" />
+			<include android:id="false" layout="res/Fh.xml" />
+			<View android:background="{2:2130969434}" android:layout_width="-1" android:layout_height="1dp" />
+		</LinearLayout>
+	</androidx.cardview.widget.CardView>
+	<androidx.cardview.widget.CardView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="0dp" android:layout_marginStart="0dp" android:layout_marginEnd="0dp" app:cardBackgroundColor="{2:2130969433}" app:cardCornerRadius="0dp" app:cardElevation="0dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<RelativeLayout android:gravity="0x10" android:layout_gravity="0x10" android:id="false" android:layout_width="-1" android:layout_height="48dp" android:layout_weight="{4:1065353216}" android:layout_marginEnd="0dp">
+				<TextView android:textSize="16sp" android:textColor="{2:2130969436}" android:gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="48dp" android:text="Loop" android:layout_centerVertical="true" android:fontFamily="sans-serif" android:paddingStart="16dp" android:paddingEnd="16dp" />
+				<androidx.core.widget.ContentLoadingProgressBar android:id="false" android:layout_width="24dp" android:layout_height="-1" android:layout_centerInParent="true" style="@android:style/Widget.Material.ProgressBar.Small" />
+				<LinearLayout android:id="false" android:layout_width="-2" android:layout_height="-1" android:layoutDirection="0">
+					<ImageButton android:id="false" android:background="{2:2130969524}" android:layout_width="56dp" android:layout_height="48dp" android:scaleType="5" android:onClick="onLoopStartButton" />
+					<ImageButton android:id="false" android:background="{2:2130969524}" android:layout_width="56dp" android:layout_height="48dp" android:scaleType="5" android:onClick="onLoopEndButton" />
+				</LinearLayout>
+				<ImageButton android:id="false" android:background="{2:2130969524}" android:layout_width="48dp" android:layout_height="48dp" android:src="res/gy.png" android:scaleType="5" android:tint="{2:2130969435}" android:onClick="onLoopClear" android:layout_alignParentEnd="true" />
+				<ImageButton android:id="false" android:background="{2:2130969524}" android:visibility="1" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130969435}" android:onClick="onLoopKeys" android:layout_toStartOf="false" app:srcCompat="res/fV1.xml" />
+			</RelativeLayout>
+			<View android:background="{2:2130969434}" android:layout_width="-1" android:layout_height="1dp" />
+		</LinearLayout>
+	</androidx.cardview.widget.CardView>
+	<fragment android:name="com.smp.musicspeed.markers.MarkersFragment" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	<fragment android:name="com.smp.musicspeed.equalizer.EqualizerFragment" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	<fragment android:name="com.smp.musicspeed.effects.EffectsFragment" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<include layout="res/VO.xml" />
+	</FrameLayout>
+</LinearLayout>

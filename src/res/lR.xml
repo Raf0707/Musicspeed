@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.floatingactionbutton.FloatingActionButton xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:scaleType="5" android:tint="{2:2130968870}" app:backgroundTint="{2:2130968779}" app:fabSize="1" app:rippleColor="{2:2130968964}" app:srcCompat="res/ai.xml" />

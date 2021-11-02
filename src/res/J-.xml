@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2">
+			<Button android:textSize="20dp" android:textColor="{2:2130968885}" android:id="false" android:background="{2:2130969524}" android:layout_width="48dp" android:layout_height="48dp" android:text="*2" />
+			<Button android:textSize="20dp" android:textColor="{2:2130968885}" android:id="false" android:background="{2:2130969524}" android:layout_width="48dp" android:layout_height="48dp" android:text="/2" />
+			<ImageButton android:id="false" android:background="{2:2130969524}" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="5" android:tint="{2:2130968885}" app:srcCompat="res/mm1.xml" />
+		</LinearLayout>
+	</FrameLayout>
+	<LinearLayout android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2">
+		<EditText android:gravity="0x11" android:id="false" android:layout_width="128dp" android:layout_height="-2" android:singleLine="true" android:maxLength="6" android:digits="0123456789" android:inputType="0x2" />
+		<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="BPM" android:singleLine="true" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="{2:2130969433}" android:layout_width="-1" android:layout_height="-1" android:animateLayoutChanges="true">
+	<ScrollView android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="1" android:id="false" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="56dp" android:layout_alignBottom="false">
+				<androidx.constraintlayout.widget.ConstraintLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textColor="{2:2130969436}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Album cover art" android:singleLine="true" android:fontFamily="sans-serif-medium" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="resourceId:0x7f120261" />
+					<androidx.appcompat.widget.AppCompatImageButton android:id="false" android:background="{2:2130969524}" android:layout_width="56dp" android:layout_height="48dp" app:layout_constraintBottom_toBottomOf="false" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="false" app:srcCompat="res/Dp.xml" />
+				</androidx.constraintlayout.widget.ConstraintLayout>
+				<androidx.fragment.app.FragmentContainerView android:id="false" android:layout_width="-1" android:layout_height="168dp" android:layout_marginBottom="16dp" />
+				<com.google.android.material.textfield.TextInputLayout android:theme="resourceId:0x7f12027b" android:layout_width="-1" android:layout_height="-2">
+					<com.google.android.material.textfield.TextInputEditText android:textStyle="0x0" android:textColor="{2:2130969436}" android:gravity="0x10" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Album title" android:singleLine="true" android:inputType="0x2001" style="resourceId:0x7f120272" />
+				</com.google.android.material.textfield.TextInputLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:id="false" android:padding="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_below="false">
+				<com.google.android.material.textfield.TextInputLayout android:theme="resourceId:0x7f12027b" android:layout_width="-1" android:layout_height="-2">
+					<com.google.android.material.textfield.TextInputEditText android:textStyle="0x0" android:textColor="{2:2130969436}" android:gravity="0x10" android:layout_gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Album artist" android:singleLine="true" android:inputType="0x2001" style="resourceId:0x7f120272" />
+				</com.google.android.material.textfield.TextInputLayout>
+				<com.google.android.material.textfield.TextInputLayout android:theme="resourceId:0x7f12027b" android:layout_width="-1" android:layout_height="-2">
+					<com.google.android.material.textfield.TextInputEditText android:textStyle="0x0" android:textColor="{2:2130969436}" android:gravity="0x10" android:layout_gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Genre" android:singleLine="true" android:inputType="0x2001" style="resourceId:0x7f120272" />
+				</com.google.android.material.textfield.TextInputLayout>
+				<com.google.android.material.textfield.TextInputLayout android:theme="resourceId:0x7f12027b" android:layout_width="-1" android:layout_height="-2">
+					<com.google.android.material.textfield.TextInputEditText android:textStyle="0x0" android:textColor="{2:2130969436}" android:gravity="0x10" android:layout_gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Year" android:singleLine="true" android:inputType="0x2" style="resourceId:0x7f120272" />
+				</com.google.android.material.textfield.TextInputLayout>
+			</LinearLayout>
+		</RelativeLayout>
+	</ScrollView>
+	<androidx.core.widget.ContentLoadingProgressBar android:layout_gravity="0x30" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="-6dp" android:layout_marginBottom="-6dp" android:indeterminateOnly="true" style="{2:16842872}" />
+	<com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="0x800055" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_margin="16dp" android:src="res/iT.png" android:tint="{2:2130968870}" app:backgroundTint="{2:2130968779}" app:fabSize="0" app:rippleColor="{2:2130968964}" />
+</FrameLayout>
